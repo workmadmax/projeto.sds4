@@ -5,21 +5,23 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <>
+            <div className=" ">
             <NavBar />
             <div className="container">
                 <div className="jumbotron">
-                    <h1 className="display-4">DSVendas</h1>
-                    <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
+                    <h1 className="display-4">Sales Dashboard </h1>
+                    <p className="lead initialism">Analyze your sales perfomance from different perspectives</p>
                     <hr />
-                    <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.</p>
+                    <span className="h5"><p>This application consist of displaying a dashboard from data provided by a backend built with Spring</p></span>
                     <Link className="btn btn-primary btn-lg" to="/dashboard">
-                        Acessar o Dashboard
+                        Access Dashboard
                     </Link>
                 </div>
             </div>
 
             <Footer />
+            </div>
         </>
     );
 }
-export default Home;
+export default Home

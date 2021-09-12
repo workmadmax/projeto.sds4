@@ -10,11 +10,11 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Max Douglas
+              MadMax42
             </a>
           </p>
           <p className="text-light">
-            <small>
+            
               <strong>Semana Spring React</strong>
               <br />
               Evento promovido pela escola DevSuperior:{" "}
@@ -25,7 +25,7 @@ const Footer = () => {
               >
                 @devsuperior.ig
               </a>
-            </small>
+            
           </p>
         </div>
       </footer>
