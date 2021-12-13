@@ -25,7 +25,7 @@ With help from Devsuperior, Professor Nelio Alves and the community we developed
 
 # Como executar o projeto localmente
 
-1º - Clone o [Repositório](https://github.com/renatomak/projeto-sds3) do projeto no GitHub
+1º - Clone o [Repositório](https://github.com/workmadmax/projeto.sds4) do projeto no GitHub
 
 Pré-requisitos:
 npm / yarn
